@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 
+// creat cash back calculator
+
 int s1, s2, s5, s10;
 int amount;
-
-
 
 void print() {
 	cout << "The papar money (10000) T : " << s10 << " PCS" << endl;
