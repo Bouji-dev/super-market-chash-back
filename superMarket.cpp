@@ -7,11 +7,17 @@ int s1, s2, s5, s10;
 int amount;
 
 void print() {
-	cout << "The papar money (10000) T : " << s10 << " PCS" << endl;
-	cout << "The papar money (5000) T  : " << s5 << " PCS" << endl;
-	cout << "The papar money (2000) T  : " << s2 << " PCS" << endl;
-	cout << "The papar money (1000) T  : " << s1 << " PCS" << endl;
 
+	if (s10 > 0) 
+		cout << "The papar money (10000) T  : " << s10 << " PCS" << endl;
+	if (s5 > 0) 
+		cout << "The papar money (5000)  T  : " << s5 << " PCS" << endl;
+	if (s2 > 0) 
+		cout << "The papar money (2000)  T  : " << s2 << " PCS" << endl;	
+	if (s1 > 0) 
+		cout << "The papar money (1000)  T  : " << s1 << " PCS" << endl;
+					 	 
+	
 }
 
 int main() {
